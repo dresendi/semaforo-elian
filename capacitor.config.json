@@ -1,0 +1,10 @@
+{
+  "appId": "com.elian.apps",
+  "appName": "semaforo",
+  "webDir": "dist",
+  "plugins": {
+    "SplashScreen": {
+      "launchAutoHide": false
+    }
+  }
+}

@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    background: #222;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.semaforo {
+    background: #111;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.luz {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #444;
+}
+
+.activa.rojo { background: red; }
+.activa.amarillo { background: yellow; }
+.activa.verde { background: limegreen; }
+
+button {
+    padding: 15px 40px;
+    font-size: 20px;
+}
